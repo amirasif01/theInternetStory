@@ -1,70 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The Internet Story</title>
-        <link rel="styleSheet" href="style.css">
+    <head> 
+        <title> Food </title>
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
     </head>
-    <div class="title"><h1>The <span>P</span>izza Website</h1></div>
+
     <body>
+
+        <!-- TITLE -->
+        <div class="title">
+            <h1>The <span>P</span>izza Website</h1>
+        </div>
 
         <div class="container">
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#one">Homepage</a>
+                    <a class="nav-link active" data-toggle="tab" href="#one">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#two">Ingredients</a>
+                    <a class="nav-link" data-toggle="tab" href="#two">Recipes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#three">Places</a>
                 </li>
             </ul>
+
             <!-- Tab Panes -->
             <div class="tab-content">  
                 <div id="one" class="container tab-pane active">
                     <div class="row">
-                        
-                        <div class="col-sm-3"><img src="https://cdn.britannica.com/q:60/08/177308-050-94D9D6BE/Food-Pizza-Basil-Tomato.jpg" alt="pizza2" class="picture rounded-circle"></div>
-                        <div class="col-sm-3"><img src="https://img.taste.com.au/JBQ8zWnO/taste/2016/11/pizza-dough_1980x1320-118409-1.jpg" alt="pizza3" class="picture"></div>
-                        <div class="col-sm-3"><img src="https://cdn.britannica.com/q:60/08/177308-050-94D9D6BE/Food-Pizza-Basil-Tomato.jpg" alt="pizzaone" class="picture rounded-circle"></div>
+                        <div class="col-sm-3"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="pizza one" class="picture rounded-circle"></div>
+                        <div class="col-sm-3"><img src="https://www.budgetbytes.com/wp-content/uploads/2010/07/Classic-Homemade-Pizza-Dough-close.jpg" alt="pizza two" class="picture rounded-circle"></div>
+                        <div class="col-sm-3"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="pizza three" class="picture rounded-circle"></div>
                     </div>
-
                     <div class="about">
-                        <h2>Background</h2>
-                        <p>Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.</p>
-                    <p>Pizza is a type of food that was created in Italy. It is made by putting "Toppings" (such as cheese, sausages, pepperoni, vegetables, tomatoes, spices and herbs) over a piece of bread covered with sauce; most often tomato, but sometimes butter-based sauces are used. (The piece of bread is usually called a "pizza crust".) Almost any kind of topping can be put over a pizza. The toppings people use are different in different parts of the world. Pizza comes from Italy, from Neapolitan cuisine, but has become popular in many parts of the world.</p></div>
+                        <h2>About Us</h2>
+                        <p>The most exquisite invension in the world, an awesome italian coucine fast and delicuious made with cheese and sauce alse named pizza. It has been seen for the first time on 10th century, in central Italy. After some varieties, in Naples, has been perfectioned and converted in the modern pizza that today is popular.
+                            The pizza is made of dough and also need salt, sugar, yeast and water. All it mixed creates an elastic dough that can be molded in many different shapes, usually is a round, square, or a rectangle. That can be cuttet in triangles or small squares and also in some cases like February fourtenn can be an un usual shape like a heart with some m&m writing the name of the loved person for san valentines day.</p>
+                        <p>After the sauce, is added cheese creating a Cheese Pizza or a Margarita Pizza. Depending on the place is called different. Is the most simple and traditional pizza in the world.If the sauce and the cheese is good everything is fine.
+                            After the two main ingredients is time to be creative, depending of the taste, and what the people likes. The pizza could be cooked with chicken, meat, pineapple, jam, mushroom, pork, peppers and many other ingredients as the imagination can make.
+                            Talking about preferences, exist people that add cheese to the border making an extravagant taste and it includes a special mix with melted butter and garlic. In other hands, there are people who does not like the border and eat pizza without it.</p>    
+                    </div>
                 </div>
+
                 <div id="two" class="container tab-pane fade">
-                    <h3>Ingredients</h3>
+                    <h3>Recipes</h3>
                     <div class="container">
-                        
-                        <p>Click to see ingredients</p>
+                        <p>Click below to see all recipes from our amazing shop!</p>
                       </div>
                         
                       <div class="container">
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">First item</li>
-                          <li class="list-group-item">Second item</li>
-                          <li class="list-group-item">Third item</li>
-                          <li class="list-group-item">Fourth item</li>
-                        </ul>
+                        <div id="accordion">
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                  Amir's Special Pizza <span class="badge badge-primary badge-pill">12</span>
+                                </a>
+                              </div>
+                              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="container-fluid">
+                                        <div class="row drow">
+                                          <div class="col-sm-3 col-md-6">
+                                             <img src="https://simply-delicious-food.com/wp-content/uploads/2020/06/Grilled-Pizza-Margherita-3-500x500.jpg" alt="pizzaamir" class="rPic img-thumbnail">
+                                          </div>
+                                          <div class="col-sm-9 col-md-6">
+                                            <ol>
+                                                <li>Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave
+                                                     the dough to rise if you like, but it's not essential for a thin crust.</li>
+                                                <li>Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at 
+                                                    room temperature while you get on with shaping the base.</li>
+                                                <li>Roll out the dough: if you've let the dough rise, give it a quick knead, then split into two balls.
+                                                     On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.</li>
+                                            </ol>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                Phillip's Special Pizza <span class="badge badge-primary badge-pill">300</span>
+                              </a>
+                              </div>
+                              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                  Collapsible Group Item #3
+                                </a>
+                              </div>
+                              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                       </div>
                 </div>
+
                 <div id="three" class="container tab-pane fade">
-                    <h3>Places You Can Eat</h3>
-                     <p></p>
+                    <h3>Places you can eat</h3>
+                    <section class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.900129066589!2d-0.13762038423042083!3d51.49670017963334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604de8102d94d%3A0x230d34aae9b35b9!2s11-19%20Artillery%20Row%2C%20London%20SW1P%201RT!5e0!3m2!1sen!2suk!4v1637771167612!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </section>   
+                    <p class="address">11-19 Artillery Row<br>
+                        11-19 Artillery Row, London SW1P 1RT</p>
                 </div>
+    
+                        
             </div> 
         </div>
 
-        
-        
 
-        
+
     </body>
 </html>
